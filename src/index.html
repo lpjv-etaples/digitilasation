@@ -3,7 +3,7 @@
 
 <html>
   <head>
-    <title>OASIS - {{ 'Home' if IS_HOME else name }}</title>
+    <title>CHANTIER - {{ 'Home' if IS_HOME else name }}</title>
     <link rel="shortcut icon" href="{{ ROOT }}assets/img/favicon.png" type="image/x-icon">
     <script src="https://rawgit.com/ngokevin/aframe/posfirstdist/dist/aframe-master.min.js"></script>
     <script src="{{ ROOT }}build/socket.io.min.js"></script>
@@ -12,7 +12,7 @@
     <script src="https://poc.virtuleap.com/library/gar-calculator-aframe.v1.0.min.js"></script>
     {% if IS_PRODUCTION %}<style>.a-inspector-loader{ display: none; }</style>{% endif %}
     <style>
-      html { background: #111; }
+      html { background: #ECECEC; }
     </style>
   </head>
   <body>
